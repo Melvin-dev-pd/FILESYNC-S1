@@ -1,0 +1,45 @@
+# ============================================
+# PD-FileSync_V1.0 - Archivos a ignorar
+# ============================================
+
+# --- Entorno virtual ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Build de PyInstaller ---
+build/
+dist/
+*.spec
+
+# --- Caché de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Logs del programa ---
+Logs/
+*.log
+*.csv
+
+# --- Configuración local (contiene IPs específicas) ---
+config.json
+
+# --- Archivos temporales ---
+*.tmp
+*.bak
+*.swp
+
+# --- Sistema Operativo ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- Excluir cualquier .exe ---
+*.exe
